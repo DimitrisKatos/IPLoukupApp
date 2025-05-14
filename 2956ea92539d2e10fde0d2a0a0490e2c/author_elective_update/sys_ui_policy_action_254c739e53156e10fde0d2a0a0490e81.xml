@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_capex_value</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-06 18:17:31</sys_created_on>
+        <sys_id>254c739e53156e10fde0d2a0a0490e81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_capex_value</sys_name>
+        <sys_package display_value="IPLookup" source="2956ea92539d2e10fde0d2a0a0490e2c">2956ea92539d2e10fde0d2a0a0490e2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">2956ea92539d2e10fde0d2a0a0490e2c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_254c739e53156e10fde0d2a0a0490e81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-06 18:17:31</sys_updated_on>
+        <table>u_vendor_contract</table>
+        <ui_policy display_value="if  capex=true and opex=false, then make visible the capex_value visible">dabbb35e53156e10fde0d2a0a0490ea9</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=254c739e53156e10fde0d2a0a0490e81"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IPLookup">2956ea92539d2e10fde0d2a0a0490e2c</application>
+        <file_path/>
+        <instance_id>70cdc166db4a8ad42f082a59139619d5</instance_id>
+        <instance_name>dev267888</instance_name>
+        <name>sys_ui_policy_action_254c739e53156e10fde0d2a0a0490e81</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>u_capex_value</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-06 18:17:31</sys_created_on><sys_id>254c739e53156e10fde0d2a0a0490e81</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_capex_value</sys_name><sys_package display_value="IPLookup" source="2956ea92539d2e10fde0d2a0a0490e2c">2956ea92539d2e10fde0d2a0a0490e2c</sys_package><sys_policy/><sys_scope display_value="IPLookup">2956ea92539d2e10fde0d2a0a0490e2c</sys_scope><sys_update_name>sys_ui_policy_action_254c739e53156e10fde0d2a0a0490e81</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-06 18:17:31</sys_updated_on><table>u_vendor_contract</table><ui_policy display_value="if  capex=true and opex=false, then make visible the capex_value visible">dabbb35e53156e10fde0d2a0a0490ea9</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=254c739e53156e10fde0d2a0a0490e81"/></record_update>]]></payload>
+        <payload_hash>1219937317</payload_hash>
+        <record_name>u_capex_value</record_name>
+        <reverted_from/>
+        <source>d2387bfce19312105590bd68cbbecbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-06 18:17:31</sys_created_on>
+        <sys_id>0d6cff9e53156e10fde0d2a0a0490ef4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196a6d138130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-06 18:17:31</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>016cff9e99156e1066fee6ea9333c0f4</update_guid>
+        <update_guid_history>016cff9e99156e1066fee6ea9333c0f4:1219937317</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-07 08:24:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>4d5c6082a7c042b0899f1a8a65e4a390</sys_id>
+        <sys_metadata>254c739e53156e10fde0d2a0a0490e81</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_capex_value</sys_name>
+        <sys_package display_value="IPLookup" source="2956ea92539d2e10fde0d2a0a0490e2c">2956ea92539d2e10fde0d2a0a0490e2c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">2956ea92539d2e10fde0d2a0a0490e2c</sys_scope>
+        <sys_scope_delete display_value="">095de35af00d44409500ef7d7b4e6c40</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_254c739e53156e10fde0d2a0a0490e81</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_254c739e53156e10fde0d2a0a0490e81">0d6cff9e53156e10fde0d2a0a0490ef4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-07 08:24:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="95588f1e53116e10fde0d2a0a0490e10" extends="task" label="Vendor Contract" max_length="40" name="u_vendor_contract" text_index="true" type="collection">
+        <element label="Capex" max_length="255" name="u_capex" type="boolean"/>
+        <element choice="1" label="Capex Or Opex" max_length="40" name="u_capex_or_opex" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Opex" sequence="1" value="Opex"/>
+                <element inactive_on_update="false" label="Capex &amp; Opex" sequence="2" value="Capex &amp; Opex"/>
+                <element inactive_on_update="false" label="Capex" sequence="0" value="Capex"/>
+            </choice>
+        </element>
+        <element label="Capex Value" max_length="255" name="u_capex_value" type="float"/>
+        <element label="Total Value" max_length="255" name="u_value" read_only="true" type="float"/>
+        <element label="Total Value" max_length="255" name="u_total_value" type="integer"/>
+        <element label="value total" max_length="20" name="u_value_total" type="currency"/>
+        <element label="Total Value " max_length="255" name="u_total_value1" type="longint"/>
+        <element label="New Field 1" max_length="255" name="u_new_field_1" type="integer"/>
+        <element label="Opex" max_length="255" name="u_opex" type="boolean"/>
+        <element label="Opex Value" max_length="255" name="u_opex_value" type="float"/>
+    </element>
+</database>

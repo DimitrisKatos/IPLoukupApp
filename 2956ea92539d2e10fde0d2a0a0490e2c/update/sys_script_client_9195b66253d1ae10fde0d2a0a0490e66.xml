@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_opex</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Update Opex Value</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var capex = g_form.getValue('u_capex') == 'true';
+   var opex = g_form.getValue('u_opex') == 'true';
+   var totalValue = g_form.getValue('u_total_value') ;
+   var capexValue = g_form.getValue('u_opex_value');
+
+   // If u_opex is True and u_capex is True, calculate u_opex_value
+   if (capex && opex) {
+	
+     	 g_form.setValue('u_opex_value', totalValue - capexValue);
+
+   }
+   // If only u_capex is True, u_capex_value should equal u_total_value
+   else if (opex && !capex) {
+     	 g_form.setValue('u_opex_value', totalValue);
+	//   g_form.clearValue('u_capex_value');
+   }
+    else if (!opex && !capex){
+		g_form.clearValue('u_capex_value')
+		g_form.clearValue('u_opex_value')
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-07 07:47:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9195b66253d1ae10fde0d2a0a0490e66</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Update Opex Value</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IPLookup" source="2956ea92539d2e10fde0d2a0a0490e2c">2956ea92539d2e10fde0d2a0a0490e2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">2956ea92539d2e10fde0d2a0a0490e2c</sys_scope>
+        <sys_update_name>sys_script_client_9195b66253d1ae10fde0d2a0a0490e66</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-07 08:29:06</sys_updated_on>
+        <table>u_vendor_contract</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="file_root=true,no_labels=true,ref_ac_columns=name,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter,update_synch=true" db_object_id="ff833330e11312105590bd68cbbecb99" extends="sys_metadata" label="Table" max_length="40" name="sys_db_object" text_index="true" type="collection">
+        <element label="Opex" max_length="255" name="u_opex" type="boolean"/>
+        <element label="Capex" max_length="255" name="u_capex" type="boolean"/>
+        <element label="Total Value" max_length="255" name="u_total_value" type="integer"/>
+        <element label="Capex Value" max_length="255" name="u_capex_value" type="integer"/>
+        <element label="Capex Value" max_length="255" name="u_capex_valu0" type="integer"/>
+    </element>
+</database>
